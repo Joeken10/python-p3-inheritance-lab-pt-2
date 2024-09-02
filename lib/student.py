@@ -18,3 +18,15 @@ class ChattyStudent(Student):
             super().raise_hand()
     
     pass
+
+student = Student()
+student.hello()  
+student.raise_hand()  
+
+print("\n")
+
+
+chatty_student = ChattyStudent()
+chatty_student.hello()
+print("")
+chatty_student.raise_hand()
